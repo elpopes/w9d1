@@ -1,4 +1,5 @@
 console.log("moving_objects is working");
+function MovingObject() {
 
 class MovingObject {
   constructor(options) {
@@ -15,3 +16,15 @@ const mo = new MovingObject({
   radius: 5,
   color: "#00FF00",
 });
+  
+}
+
+MovingObject.prototype.draw = function(ctx){
+  
+  ctx.fillStyle = red; 
+
+}
+
+module.exports = MovingObject;
+
+
